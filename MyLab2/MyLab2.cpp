@@ -37,7 +37,7 @@ int main()
 
 			cin >> matrixElements2[0] >> matrixElements2[1] >> matrixElements2[2] >> matrixElements2[3] >> matrixElements2[4] >> matrixElements2[5] >> matrixElements2[6] >> matrixElements2[7] >> matrixElements2[8];
 			cout << " det(A) = " << matrixElements2[0] * matrixElements2[4] * matrixElements2[8] + matrixElements2[2] * matrixElements2[3] * matrixElements2[7] + matrixElements2[1] * matrixElements2[5] * matrixElements2[6] - (matrixElements2[2] * matrixElements2[4] * matrixElements2[6] + matrixElements2[1] * matrixElements2[3] * matrixElements2[8] + matrixElements2[0] * matrixElements2[5] * matrixElements2[7]) << endl;
-			break;`
+			break;
 		default:
 			cout << endl;
 			cout << " Недопустимий розмір матриці.....\n";
